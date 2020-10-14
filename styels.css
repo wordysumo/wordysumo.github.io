@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 500px;
+    
+}
+.sidebar {
+    display: block;
+    width: 2%;
+    background-color: blueviolet;
+    padding: 2%;
+    transition: width 2s;
+}
+.sidebar:hover {
+    width: 40%;
+    
+}
+.sidebar:hover .content {
+    width: 60%;
+}
+.content {
+    width: 98%;
+    display: block;
+    padding: 2%;
+
+    background-color: blue;
+}
