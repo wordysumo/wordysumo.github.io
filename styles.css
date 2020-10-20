@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
+.header {
+    background-color: red;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: greenyellow;
+    transition: background-color 4s;
+}
+h1:hover {
+    background-color: blue;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    background-color: gray;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    color: greenyellow;
+    border-radius: 6px;
+    margin: 2px;
+}
+li a:hover {
+    background-color: greenyellow;
+    color: gray;
+}
+.content {
+    margin-left: 8px;
+    color: greenyellow;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
